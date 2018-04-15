@@ -91,6 +91,10 @@ ul li:hover .hover-nav {
 
 
 .img-info {
-    background-image: url(../img/bg123.jpg);
-    background: red;
+    background-image: url(./img/bg123.jpg);    
+    background-size: cover;
+    height:899px; 
+    line-height: 50px;
+    margin-top: 1%;
+    width: 100%;
 }
