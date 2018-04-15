@@ -1,0 +1,96 @@
+* {
+    box-sizing: border-box;
+    padding:0;
+    margin:0;
+}
+
+body {
+    font-family:  'Lato', Arial, Helvetica, sans-serif;
+    font-size : 14px;
+    color : #a1b1bc;
+    background-color: #fff;
+}
+
+a {
+    text-decoration : none;
+    color:inherit;
+}
+h1 {
+    font-size: 26px;
+    font-weight: 400;
+    color:#222533;
+}
+h1 span {
+    font-size: 50px;
+    font-weight: 900;
+}
+h2 {
+    font-size : 36px;
+    font-weight: 300;
+    color :  #2c3e50;
+}
+
+h3 {
+    font-size : 15px;
+    font-weight: 700;
+    color : #2c3e50;
+}
+
+h4 {
+    color:#34495e;
+    font-weight: 400;
+}
+
+.grid-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1170px 1fr;
+}
+
+.wrapped-content {
+    grid-column: 2/3;
+}
+
+
+/* Nav */
+
+nav {
+    padding:20px;
+    color:#2c3e50;
+} 
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items:center;
+    
+}
+ ul li {
+    flex-grow : 1;   
+}
+
+ul li a {
+    color: #2c3e50;
+}
+ul li a:hover {
+    color:#1abc9c;
+}
+
+
+.hover-nav {
+    width: 60px;
+    height:5px;
+    background-color: #1abc9c;
+    display:none;
+    position:absolute;
+    text-align: center;
+    top:0px;
+}
+ul li:hover .hover-nav {
+    display:block;
+}
+
+
+.img-info {
+    background-image: url(../img/bg123.jpg);
+    background: red;
+}
